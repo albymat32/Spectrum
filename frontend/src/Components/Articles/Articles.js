@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Articles.css";
+import ReportButton from "../ReportButton/ReportButton";
 import JobDate from "../Jobs/JobDate";
 import TimeAgo from "react-timeago";
 import frenchStrings from "react-timeago/lib/language-strings/fr";
@@ -72,10 +73,36 @@ const Articles = (props) => {
     document.body.style.overflow = "initial";
   };
 
-  const handleReport = (e) => {
-    e.preventDefault();
-    setReported(true);
+  // const handleReport = (e) => {
+  //   e.preventDefault();
+  //   setReported(true);
+  // };
+  const handleReport = async (reason) => {
+    try {
+      const response = await fetch(
+        `http://localhost:5000/api/blogs/:blogId`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ reason }),
+        }
+      );
+      if (response.ok) {
+        console.log("Blog reported");
+        setReported(true);
+        setReportMessage("Blog reported successfully");
+      } else {
+        console.error("Error reporting blog");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
+
+
   const token = localStorage.getItem("token");
 
   const fetchComments = async () => {
@@ -178,6 +205,12 @@ const Articles = (props) => {
                   ></img>
                   <p className="blog_details_blog">{props.article}</p>
                   <div className="blog_detailsauthor">{props.author} </div>
+                  <div className="report_button_area">
+                  <ReportButton
+                    containerName="blog"
+                    onReport={handleReport}
+                    />
+                  </div>
                   {/* <div className="likes">Likes: {props.likes}</div> */}
                   {props.likes}
                   <button className="likebutton" onClick={handleLike}>

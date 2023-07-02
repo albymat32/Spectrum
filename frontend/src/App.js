@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import QnA from "./Components/QnA/QnA";
 import Signup from "./Components/Signup/Signup";
 import Login from "./Components/Login/Login";
+import AdminPage from "./Components/Admin/Admin"
 import Jobs from "./Components/Jobs/Jobs";
 import ArticleDetails from './Components/Articles/ArticleDetails';
 //import Housing from './Components/Housing/pages/Home';
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
     {path:'/qna', element: <QnA />},
     {path:'/jobs', element: <Jobs />},
     {path:'/profile', element: <Profile/>},
+    {path:'/admin', element: <AdminPage/>},
     {path:'/housing',element: <Housing />},
     {path:'/housing/:id',element: <Details/> },
     {path:'/housing/add',element:<HouseForm/>}
