@@ -10,9 +10,9 @@ We developed "SPECTRUM: LGBTQ+ Web Portal" to create a secure online space foste
 - [Abstract](#abstract)
 - [Project-Overview](#project-overview)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Credits](#credits)
+- [Diagrams](#diagrams)
+- [Contributors](#contributors)
 
 ---
 
@@ -56,6 +56,7 @@ We developed "SPECTRUM: LGBTQ+ Web Portal" to create a secure online space foste
 
 **A:** SPECTRUM creates a positive online environment where LGBTQ+ individuals can find understanding, resources, and connections. It addresses their unique needs and offers them a platform to express themselves freely while seeking support.
 
+[⬆️ Back To Top](#abstract)
 ---
 
 ## Installation
@@ -94,129 +95,231 @@ Follow these steps to set up the SPECTRUM: LGBTQ+ Web Portal on your local envir
 
 ---
 
-## Usage
-
-Explore the features and functionality of the SPECTRUM: LGBTQ+ Web Portal through the following screenshots and diagrams:
-
 ## Screenshots
 
-![User Login](images/User%20Login.jpeg)
-*User Login: Securely access your account*
+<ol>
+    <li>
+        <p align="center"><em><font face="Arial Black">User Login</font></em></p>
+        <p align="center">
+            <img src="images/User%20Login.jpeg" alt="User Login" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">User Signup</font></em></p>
+        <p align="center">
+            <img src="images/User%20SIgnup.jpeg" alt="User Signup" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Company Signup</font></em></p>
+        <p align="center">
+            <img src="images/Company%20Signup.jpeg" alt="Company Signup" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Admin-Company Approval</font></em></p>
+        <p align="center">
+            <img src="images/Admin-%20Company%20Approval.jpeg" alt="Admin-Company Approval" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Home Page</font></em></p>
+        <p align="center">
+            <img src="images/Home.jpeg" alt="Home Page" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Profile Page</font></em></p>
+        <p align="center">
+            <img src="images/Profile%20Page.jpeg" alt="Profile Page" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Q&A Forum</font></em></p>
+        <p align="center">
+            <img src="images/Q%26A.jpeg" alt="Q&A Forum" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Add Property Form</font></em></p>
+        <p align="center">
+            <img src="images/Add%20Property%20form.jpeg" alt="Add Property Form" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Housing Listings</font></em></p>
+        <p align="center">
+            <img src="images/Housing.jpeg" alt="Housing Listings" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Housing Details</font></em></p>
+        <p align="center">
+            <img src="images/Housing%20Details.jpeg" alt="Housing Details" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Add Job Listings</font></em></p>
+        <p align="center">
+            <img src="images/Add%20Job%20Listings.jpeg" alt="Add Job Listings" width="850">
+        </p>
+    </li><br>
+    <li>
+        <p align="center"><em><font face="Arial Black">Job Page</font></em></p>
+        <p align="center">
+            <img src="images/Job%20Page.jpeg" alt="Job Page" width="850">
+        </p>
+    </li><br>
+</ol>
 
-![User Signup](images/User%20SIgnup.jpeg)
-*User Signup: Register to join the community*
 
-![Company Signup](images/Company%20Signup.jpeg)
-*Company Signup: Businesses can create accounts*
-
-![Admin-Company Approval](images/Admin-Company%20Approval.jpeg)
-*Admin-Company Approval: Ensuring content quality*
-
-![Home](images/Home.jpeg)
-*Home Page: Welcome to the SPECTRUM Community*
-
-![Profile Page](images/Profile%20Page.jpeg)
-*Profile Page: Your activities and contributions in one place*
-
-![Q&A](images/Q%26A.jpeg)
-*Q&A Forum: Engage in knowledge-sharing discussions*
-
-![Add Property form](images/Add%20Property%20form.jpeg)
-*Add Property Form: Submit housing details*
-
-![Housing](images/Housing.jpeg)
-*Housing Listings: Explore available rentals*
-
-![Housing Details](images/Housing%20Details.jpeg)
-*Housing Details: Information about a specific property*
-
-![Add Job Listings](images/Add%20Job%20Listings.jpeg)
-*Add Job Listings: Companies can post career opportunities*
-
-![Job Page](images/Job%20Page.jpeg)
-*Job Page: Explore job listings and opportunities*
-
+[⬆️ Back To Top](#abstract)
 ---
 
 ## Diagrams
 
-![DB diagram](images/DB%20diagram.jpg)
-*Database Diagram*
+<ol>
+    <li>
+        <p align="center"><em><font face="Arial Black">Database Diagram</font></em></p>
+        <p align="center">
+            <img src="images/DB%20diagram.jpg" alt="Database Diagram" width="850">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">Use Case Diagram: Interactions between users and the system</font></em></p>
+        <p align="center">
+            <img src="images/Use%20Case%20SPECTRUM.png" alt="Use Case Diagram" width="850">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">DFD Level 0</font></em></p>
+        <p align="center">
+            <img src="images/DFD%20Level%200.png" alt="DFD Level 0" width="850">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">DFD LEVEL 1 for Jobs and Houses</font></em></p>
+        <p align="center">
+            <img src="images/images/DFD%20LEVEL%201%20Jobs%20%26%20Housing.png" alt="DFD LEVEL 1 for Jobs and Houses" width="850">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">DFD LEVEL 1 for Blogs & Q A</font></em></p>
+        <p align="center">
+            <img src="images/DFD%20LEVEL%201%20Blogs%20%26%20Q%20A.png" alt="DFD LEVEL 1 for Blogs & Q A" width="850">
+        </p>
+    </li>
+<!--     <li>
+        <p align="center"><em><font face="Arial Black">Activity Diagram for Blog</font></em></p>
+        <p align="center">
+            <img src="images/Activity%20Diagram%20Blog.png" alt="Activity Diagram for Blog" height="350">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">Activity Diagram for Housing</font></em></p>
+        <p align="center">
+            <img src="images/Activity%20Diagram%20Housing.jpg" alt="Activity Diagram for Housing" height="350">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">Activity Diagram for Job</font></em></p>
+        <p align="center">
+            <img src="images/Activity%20Diagram%20Job.jpeg" alt="Activity Diagram for Job" height="350">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">Activity Diagram for Q&A</font></em></p>
+        <p align="center">
+            <img src="images/Activity%20Diagram%20Q_A.png" alt="Activity Diagram for Q&A" height="350">
+        </p>
+    </li>
+    <li>
+        <p align="center"><em><font face="Arial Black">Activity Diagram for User</font></em></p>
+        <p align="center">
+            <img src="images/Activity%20Diagram%20User.png" alt="Activity Diagram for User" height="350">
+        </p>
+    </li> -->
+</ol>
 
-![Use Case SPECTRUM](images/Use%20Case%20SPECTRUM.png)
-*Use Case Diagram: Interactions between users and the system*
-
-![DFD Level 0](images/DFD%20Level%200.png)
-*DFD Level 0*
-
-![DFD LEVEL 1 Jobs and houses](images/DFD%20LEVEL%201%20Jobs%20and%20houses.png)
-*DFD LEVEL 1 for Jobs and Houses*
-
-![DFD LEVEL 1 Blogs & Q A](images/DFD%20LEVEL%201%20Blogs%20%26%20Q%20A.png)
-*DFD LEVEL 1 for Blogs & Q A*
-
-![Activity Diagram Blog](images/Activity%20Diagram%20Blog.png)
-*Activity Diagram for Blog*
-
-![Activity Diagram Housing](images/Activity%20Diagram%20Housing.jpg)
-*Activity Diagram for Housing*
-
-![Activity Diagram Job](images/Activity%20Diagram%20Job.jpeg)
-*Activity Diagram for Job*
-
-![Activity Diagram Q_A](images/Activity%20Diagram%20Q_A.png)
-*Activity Diagram for Q&A*
-
-![Activity Diagram User](images/Activity%20Diagram%20User.png)
-*Activity Diagram for User*
+[⬆️ Back To Top](#abstract)
 
 ---
 
-## Contributors ✨
+## Contributors
 
 Thanks go to these wonderful people:
 
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%">
+      <td align="center" valign="top" width="25%">
         <a href="https://github.com/amaldevcd">
           <img src="https://github.com/amaldevcd.png" width="100px;" alt="Amal Dev"/><br />
           <sub><b>Amal Dev</b></sub>
         </a><br />
-        <a href="https://github.com/amaldevcd" title="GitHub Profile">🖥️🔧</a>
+        <a href="https://github.com/amaldevcd" title="GitHub Profile">
+         <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50">
+        </a>
+       <a href="https://github.com/amaldevcd" title="GitHub Profile">
+         <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="50">
+        </a>
       </td>
-      <td align="center" valign="top" width="14.28%">
+      <td align="center" valign="top" width="25%">
         <a href="https://github.com/fayazap">
           <img src="https://github.com/fayazap.png" width="100px;" alt="Fayaz A P"/><br />
           <sub><b>Fayaz A P</b></sub>
         </a><br />
-        <a href="https://github.com/fayazap" title="GitHub Profile">💻🎨</a>
+       <a href="https://github.com/fayazap" title="GitHub Profile">
+        <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="40">  
+       </a> 
+        <a href="https://github.com/fayazap" title="GitHub Profile">
+         <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="40">
+       </a> 
+        <a href="https://github.com/fayazap" title="GitHub Profile">
+         <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50">  
+       </a>             
       </td>
-      <td align="center" valign="top" width="14.28%">
+      <td align="center" valign="top" width="25%">
         <a href="https://github.com/hannasalam">
           <img src="https://github.com/hannasalam.png" width="100px;" alt="Hanna Salam"/><br />
           <sub><b>Hanna Salam</b></sub>
         </a><br />
-        <a href="https://github.com/hannasalam" title="GitHub Profile">🖥️🔧</a>
+        <a href="https://github.com/hannasalam" title="GitHub Profile">
+         <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50">
+        </a>
+        <a href="https://github.com/hannasalam" title="GitHub Profile">
+         <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="50">
+        </a>
       </td>
-      <td align="center" valign="top" width="14.28%">
+      <td align="center" valign="top" width="25%">
         <a href="https://github.com/albymat32">
           <img src="https://github.com/albymat32.png" width="100px;" alt="Alby Thekkedan"/><br />
           <sub><b>Alby Thekkedan</b></sub>
         </a><br />
-        <a href="https://github.com/albymat32" title="GitHub Profile">💻🎨</a>
+           <a href="https://github.com/albymat32" title="GitHub Profile">
+        <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="40">  
+       </a> 
+        <a href="https://github.com/albymat32" title="GitHub Profile">
+         <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-1a7b1a16eecb" width="40">
+       </a> 
+        <a href="https://github.com/albymat32" title="GitHub Profile">
+         <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50">  
+       </a>            
       </td>
-      <td align="center" valign="top" width="14.28%">
+      <td align="center" valign="top" width="25%">
         <a href="https://github.com/jaison080">
           <img src="https://github.com/jaison080.png" width="100px;" alt="Jaison Thomas"/><br />
           <sub><b>Jaison Thomas</b></sub>
         </a><br />
-        <a href="https://github.com/jaison080" title="GitHub Profile">💻📢</a>
+        <a href="https://github.com/jaison080" title="GitHub Profile">
+         <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="80">
+        </a>
       </td>
     </tr>
   </tbody>
 </table>
+
+[⬆️ Back To Top](#abstract)
 
 ---
 
@@ -224,4 +327,14 @@ Thanks go to these wonderful people:
 
 ## 🏆Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+[⬆️ Back To Top](#abstract)
+
