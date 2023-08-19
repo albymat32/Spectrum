@@ -200,7 +200,7 @@ Follow these steps to set up the SPECTRUM: LGBTQ+ Web Portal on your local envir
     <li>
         <p align="center"><em><font face="Arial Black">DFD LEVEL 1 for Jobs and Houses</font></em></p>
         <p align="center">
-            <img src="images/images/DFD%20LEVEL%201%20Jobs%20%26%20Housing.png" alt="DFD LEVEL 1 for Jobs and Houses" width="850">
+            <img src="images/DFD%20LEVEL%201%20Jobs%20%26%20Housing.png" alt="DFD LEVEL 1 for Jobs and Houses" width="850">
         </p>
     </li>
     <li>
@@ -241,8 +241,8 @@ Follow these steps to set up the SPECTRUM: LGBTQ+ Web Portal on your local envir
     </li> -->
 </ol>
 
-[⬆️ Back To Top](#abstract)
 
+[⬆️ Back To Top](#abstract)
 ---
 
 ## Contributors
